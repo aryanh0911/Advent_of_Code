@@ -8,7 +8,7 @@ public:
     //     int dial = 50; // initially at 50.
     //     int MOD = 100; // 0-99 includes 100 turns.
 
-    //     int count = 0; // count of times the dial lands on 0.
+    //     int count = 0; // count of times the dial stops at 0.
     //     for(const string& line : puzzle_input){
     //         char direction = line[0];
     //         int turns = stoi(line.substr(1, line.length()-1));
@@ -30,7 +30,7 @@ public:
         int dial = 50; // dial initially at 50.
         int MOD = 100; // 0-99 includes 100 turns.
 
-        int count = 0; // count of times 0 was crossed, regardless of whether or not dial finally lands on 0.
+        int count = 0; // count of times the dial passes or stops at 0.
         for(const string& line : puzzle_input){
             char direction = line[0];
             int turns = stoi(line.substr(1, line.length()-1));
