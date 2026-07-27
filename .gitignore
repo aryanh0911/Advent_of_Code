@@ -1,1 +1,8 @@
+# C++ compiler files
 *.exe
+
+
+# TS config files
+bun.lock
+tsconfig.json
+package.json
